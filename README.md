@@ -13,6 +13,12 @@ You'll work alone, and you'll also review your own code so you can practice refl
 * Account statement (date, credit or debit amount, balance) printing.
 * Data can be kept in memory (it doesn't need to be stored to a database or anything).
 
+Domain Model +> Object = Client 
+             -> Method = Deposits, Withdrawl, Print 
+
+             +> Object = Statement
+             -> Method = date, credit/debit, balance 
+
 ### Acceptance criteria
 
 **Given** a client makes a deposit of 1000 on 10-01-2012  
